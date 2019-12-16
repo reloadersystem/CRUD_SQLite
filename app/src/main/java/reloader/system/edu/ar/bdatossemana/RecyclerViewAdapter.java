@@ -44,7 +44,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
       holder.txtssdpdf.setText(model.getSsdpdf());
 
-      holder.imagendb.setImageResource(R.drawable.ambiente_2);
+      holder.imagendb.setImageResource(R.drawable.ic_launcher_background);
 
 
         boolean habilita = model.isHabilitar();
@@ -63,7 +63,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 //            }
 
         if (materia.equalsIgnoreCase("Biologia")&& habilita) {
-            holder.imagendb.setImageResource(R.drawable.grisbiologia);
+            holder.imagendb.setImageResource(R.drawable.ic_launcher_background);
             holder.txtcodigo.setEnabled(false);
             holder.txtasignatura.setEnabled(false);
             holder.txtcapitulo.setEnabled(false);
@@ -77,7 +77,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         }
 
         if (materia.equalsIgnoreCase("Quimica")) {
-            holder.imagendb.setImageResource(R.drawable.ambiente_3);
+            holder.imagendb.setImageResource(R.drawable.ic_launcher_background);
             holder.txtcodigo.setTextColor(Color.BLUE);
         }
 
